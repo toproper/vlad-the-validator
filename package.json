@@ -1,0 +1,17 @@
+{
+  "name": "vlad-the-validator",
+  "version": "1.0.0",
+  "description": "json response validator",
+  "main": "validate.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Jeroen Janssen",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
+}
