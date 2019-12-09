@@ -1,6 +1,6 @@
-module.exports = function(personSchema, personObj) {
-    const schemaMap = new Map(Object.entries(personSchema))
-    const responseMap = new Map(Object.entries(personObj))
+module.exports = function(schema, response) {
+    const schemaMap = new Map(Object.entries(schema))
+    const responseMap = new Map(Object.entries(response))
 
     if (schemaMap.size !== responseMap.size) { throw Error('Wrong number of fields')}
 
